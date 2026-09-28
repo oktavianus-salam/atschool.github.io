@@ -75,7 +75,7 @@
       "description": "ATSCHOOL adalah education ecosystem yang menyediakan kebutuhan pendidikan, books, stationery, learning, technology, dan educational services.",
       "contactPoint": {
         "@type": "ContactPoint",
-        "email": "hello@atschool.id",
+        "email": "oktavianus.salam@gmail.com",
         "contactType": "customer service",
         "areaServed": "ID"
       }
@@ -224,7 +224,7 @@
                     </p>
 
                     <p class="text-base sm:text-lg text-slate-600 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-                        ATSCHOOL hadir sebagai ekosistem kebutuhan pendidikan yang menghubungkan produk, layanan, teknologi, dan pengalaman belajar dalam satu platform modern.
+                        ATSCHOOL hadir sebagai platform ekosistem pendidikan yang menghubungkan produk, layanan, teknologi, dan solusi pendidikan untuk siswa, orang tua, guru, dan sekolah dalam satu tempat.
                     </p>
 
                     <div class="pt-4 flex flex-col sm:flex-row items-center justify-center lg:justify-start space-y-3 sm:space-y-0 sm:space-x-4">
@@ -1066,7 +1066,7 @@
                             </div>
                             <div>
                                 <h4 class="text-xs font-bold text-slate-400 uppercase">Email Resmi</h4>
-                                <p class="text-sm font-bold text-brand-deep mt-0.5">hello@atschool.id</p>
+                                <p class="text-sm font-bold text-brand-deep mt-0.5">oktavianus.salam@gmail.com</p>
                             </div>
                         </div>
 
@@ -1076,7 +1076,7 @@
                             </div>
                             <div>
                                 <h4 class="text-xs font-bold text-slate-400 uppercase">WhatsApp Helpdesk</h4>
-                                <p class="text-sm font-bold text-brand-deep mt-0.5">+62 812-XXXX-XXXX (Placeholder)</p>
+                                <p class="text-sm font-bold text-brand-deep mt-0.5">+62 858-7854-4960</p>
                             </div>
                         </div>
 
@@ -1163,7 +1163,7 @@
                     </div>
                     <p class="text-sm font-semibold text-brand-accent">Everything for Education</p>
                     <p class="text-xs text-slate-400 leading-relaxed max-w-sm">
-                        ATSCHOOL adalah education ecosystem yang menyediakan kebutuhan pendidikan, books, stationery, learning, technology, dan educational services terpadu.
+                        ATSchool adalah ekosistem pendidikan yang menyediakan berbagai kebutuhan sekolah dan pembelajaran, mulai dari ATK, buku, seragam, percetakan, teknologi, hingga layanan pendidikan dalam satu tempat.
                     </p>
 
                     <div class="flex items-center space-x-3 pt-2">
@@ -1202,10 +1202,9 @@
                     <ul class="space-y-2 text-xs">
                         <li><a href="#about" class="hover:text-brand-accent transition-colors">About ATSCHOOL</a></li>
                         <li><a href="#contact" class="hover:text-brand-accent transition-colors">Contact Helpdesk</a></li>
-                        <li><button onclick="toggleTechnicalDrawer()" class="text-brand-accent hover:underline flex items-center space-x-1 mt-2">
-                            <i class="fa-solid fa-code"></i>
-                            <span>SEO & Deployment Specs</span>
-                        </button></li>
+                        
+                
+                
                     </ul>
                 </div>
 
@@ -1301,85 +1300,7 @@
         </div>
     </div>
 
-    <!-- TECHNICAL SEO & DEPLOYMENT SPECS DRAWER -->
-    <div id="techDrawer" class="fixed inset-0 z-50 bg-brand-deep/80 backdrop-blur-sm hidden items-center justify-center p-4">
-        <div class="bg-slate-900 text-slate-100 w-full max-w-3xl rounded-3xl p-6 sm:p-8 shadow-2xl relative max-h-[85vh] overflow-y-auto">
-            <button onclick="toggleTechnicalDrawer()" class="absolute top-6 right-6 text-slate-400 hover:text-white">
-                <i class="fa-solid fa-xmark text-xl"></i>
-            </button>
-            <div class="flex items-center space-x-3 mb-4">
-                <i class="fa-solid fa-server text-brand-accent text-xl"></i>
-                <h3 class="text-xl font-bold text-white">SEO, Sitemap, & Domain Deployment Guide (atschool.id)</h3>
-            </div>
-
-            <div class="space-y-6 text-xs">
-                
-                <!-- Robots.txt -->
-                <div class="bg-slate-950 p-4 rounded-2xl border border-slate-800">
-                    <h4 class="font-bold text-brand-accent mb-2">1. File robots.txt</h4>
-                    <pre class="text-slate-300 font-mono overflow-x-auto text-[11px]">
-User-agent: *
-Allow: /
-Sitemap: https://atschool.id/sitemap.xml
-                    </pre>
-                </div>
-
-                <!-- Sitemap.xml -->
-                <div class="bg-slate-950 p-4 rounded-2xl border border-slate-800">
-                    <h4 class="font-bold text-brand-accent mb-2">2. File sitemap.xml</h4>
-                    <pre class="text-slate-300 font-mono overflow-x-auto text-[11px]">
-&lt;?xml version="1.0" encoding="UTF-8"?&gt;
-&lt;urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"&gt;
-  &lt;url&gt;
-    &lt;loc&gt;https://atschool.id/&lt;/loc&gt;
-    &lt;lastmod&gt;2026-09-25&lt;/lastmod&gt;
-    &lt;changefreq&gt;weekly&lt;/changefreq&gt;
-    &lt;priority&gt;1.0&lt;/priority&gt;
-  &lt;/url&gt;
-&lt;/urlset&gt;
-                    </pre>
-                </div>
-
-                <!-- DNS Record Configurations -->
-                <div class="bg-slate-950 p-4 rounded-2xl border border-slate-800">
-                    <h4 class="font-bold text-brand-accent mb-2">3. DNS Record Setup for Custom Domain (atschool.id)</h4>
-                    <table class="w-full text-left font-mono text-[11px] text-slate-300">
-                        <thead>
-                            <tr class="border-b border-slate-800 text-slate-500">
-                                <th class="py-1">Type</th>
-                                <th class="py-1">Name</th>
-                                <th class="py-1">Value / Target</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr class="border-b border-slate-900">
-                                <td class="py-1.5 font-bold text-emerald-400">A</td>
-                                <td class="py-1.5">@</td>
-                                <td class="py-1.5">75.2.60.5 (or Netlify/Cloudflare IP)</td>
-                            </tr>
-                            <tr>
-                                <td class="py-1.5 font-bold text-emerald-400">CNAME</td>
-                                <td class="py-1.5">www</td>
-                                <td class="py-1.5">atschool.id</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-
-                <!-- Deployment Steps -->
-                <div class="bg-slate-950 p-4 rounded-2xl border border-slate-800">
-                    <h4 class="font-bold text-brand-accent mb-2">4. Quick Deploy Checklist</h4>
-                    <ol class="list-decimal list-inside space-y-1 text-slate-300">
-                        <li>Upload <code class="text-amber-400">index.html</code> ke GitHub Pages, Netlify, atau Cloudflare Pages.</li>
-                        <li>Tambahkan custom domain <code class="text-amber-400">atschool.id</code> di dashboard hosting.</li>
-                        <li>Atur DNS A Record & CNAME di registrar domain seperti yang tertera di atas.</li>
-                        <li>Pastikan HTTPS Automatic SSL diterbitkan aktif secara otomatis.</li>
-                    </ol>
-                </div>
-
-            </div>
-        </div>
-    </div>
+    
 
     <!-- JAVASCRIPT LOGIC -->
     <script>
